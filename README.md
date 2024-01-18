@@ -4,7 +4,7 @@
 ## 아나콘다 환경
 
     conda create -n <name> python==3.7.0
-    conda activate name
+    conda activate <name>
     pip install opencv-python
     pip install pillow
 
