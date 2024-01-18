@@ -1,0 +1,13 @@
+# ==== 파손 종류 ==== #
+1번 : Region crack
+2번 : Local crack1
+3번 : Local crack2
+4번 : Local crack3
+5번 : 
+6번 : 
+7번 : 
+8번 : 
+9번 : 
+10번 : 
+# ================== #
+항상 위 고정 : True
