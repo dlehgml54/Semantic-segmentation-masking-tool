@@ -1,3 +1,4 @@
+import os
 import tkinter
 from tkinter.messagebox import askyesno, Message, showinfo
 
@@ -10,6 +11,11 @@ before_img_path = './before img/'
 fin_img_path = './after img/'
 fin_gt_path = './GT/'
 masking_path = './masking/'
+
+os.mkdir(before_img_path,exist_ok=True)
+os.mkdir(fin_img_path,exist_ok=True)
+os.mkdir(fin_gt_path,exist_ok=True)
+os.mkdir(masking_path,exist_ok=True)
 
 window = tkinter.Tk()
 window.wm_iconphoto(False, ImageTk.PhotoImage(Image.open('./.hide/Icon.png')))
